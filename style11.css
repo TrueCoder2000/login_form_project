@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    height: 937px;
+    background-image: url("image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+
+.div-menu-login{
+    width: 100%;
+    height: 937px;
+    display: block;
+}
+
+.div-menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu{
+    width: 100%;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:hover{
+    color: orange;
+}
+
+
+.div-login{
+    width: 100%;
+    height: 837px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario{
+    width: 22%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+}
+
+.div-text-login{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.div-text-login h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.div-user{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-user input{
+    width: 60%;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+
+.div-password{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-password input{
+    width: 60%;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+
+.div-button{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-login{
+    width: 60%;
+    height: 35px;
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.btn-login:hover{
+    background-color: rgb(192, 137, 26);
+    transition: 0.9s;
+}

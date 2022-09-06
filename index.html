@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try my login</title>
+    <link rel="stylesheet" href="style11.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="div-menu-login">
+            <nav class="div-menu">
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li style="background-color: red;height:40px;display:flex;justify-content:center;align-items:center;"><a href="#">LOGOUT</a></li>
+                </ul>
+            </nav>
+
+    <div class="div-login">
+        <form class="formulario" name="formulario" method="POST" action="validation.php">
+            <div class="div-text-login">
+                <h1>LOGIN FORM</h1>
+            </div>
+            <div class="div-user">
+                <input type="text" name="username" class="user" placeholder="Username" autocomplete="off">
+            </div><br>
+
+            <div class="div-password">
+                <input type="text" name="password" class="password" placeholder="Password" autocomplete="off">
+            </div><br>
+
+            <div class="div-button">
+                <button class="btn-login" name="btn-login">LOGIN</button>
+            </div><br>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
